@@ -10,7 +10,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 @Component
-public class StudentInitialize {
+public class Bootstrap {
     @Autowired
     StudentRepository studentRepository;
     @EventListener(ContextRefreshedEvent.class)
